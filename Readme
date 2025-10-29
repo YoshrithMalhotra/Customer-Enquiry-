@@ -1,0 +1,51 @@
+# 🧾 Customer Enquiry Management Web App
+
+A simple full-stack web application built using **Django (backend)** and **ReactJS (frontend)** to manage customer enquiries.  
+The project demonstrates CRUD operations, API design, and frontend-backend integration.
+
+---
+
+## 🚀 Objective
+Build a web application where users can:
+- Submit an enquiry form.
+- View all submitted enquiries in a table.
+- (Optional) Delete enquiries, search by name/email, and paginate the list.
+
+---
+
+## 🧩 Tech Stack
+
+### **Backend**
+- Django
+- Django REST Framework (DRF)
+- SQLite (default database)
+
+### **Frontend**
+- ReactJS (via Create React App or Vite)
+- Axios (for API communication)
+- Tailwind CSS / Bootstrap 
+
+---
+
+## ⚙️ Functional Requirements
+
+### 📝 Enquiry Submission
+- User can submit an enquiry with:
+  - Name  
+  - Email  
+  - Phone  
+  - Message  
+- On successful submission:
+  - The enquiry is saved in the database.
+  - A success message is displayed.
+
+### 📋 Display All Enquiries
+- A page displays all submitted enquiries in a table.
+- Each row contains:
+  - Name  
+  - Email  
+  - Phone  
+  - Message  
+  - Creation date  
+
+
